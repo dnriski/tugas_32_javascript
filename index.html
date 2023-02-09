@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Belajar Javascript - NIOMIC</title>
+  </head>
+  <body>
+    <input type="text" id="satu" value="Nama Depan" /> <br />
+    <input type="text" id="dua" value="Nama Belakang" /> <br />
+    <input type="text" id="tiga" value="Hobi" /> <br /><br />
+
+    <button type="button" onclick="handleJalan()" name="button">Jalan</button>
+
+    <script>
+      const handleJalan = () => {
+        console.log(document.getElementById("satu"));
+        console.log(document.getElementById("dua"));
+        console.log(document.getElementById("tiga"));
+      };
+    </script>
+  </body>
+</html>
